@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer & Newsletter Section</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Newsletter Section */
+        .newsletter {
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .newsletter h2 {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .newsletter p {
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
+        .newsletter .input-group {
+            max-width: 600px;
+            margin: 0 auto;
+            border-radius: 30px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+        }
+        .newsletter .form-control {
+            border-radius: 30px;
+            border: none;
+            padding: 15px;
+        }
+        .newsletter .btn {
+            background-color: #3498db;
+            color: white;
+            border-radius: 30px;
+            padding: 10px 20px;
+            font-weight: bold;
+            border: none;
+        }
+        .newsletter .btn:hover {
+            background-color: #2980b9;
+        }
+
+        /* Footer Section */
+        .footer {
+            background: white;
+            padding: 50px 0;
+            text-align: left;
+        }
+        .footer h5 {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        .footer p {
+            color: #6c757d;
+            margin-bottom: 10px;
+        }
+        .footer a {
+            text-decoration: none;
+            color: #6c757d;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .footer a:hover {
+            color: #3498db;
+        }
+        .social-icons a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border-radius: 50%;
+            margin-right: 10px;
+            background-color: #f8f9fa;
+            color: #2c3e50;
+            transition: 0.3s;
+        }
+        .social-icons a:hover {
+            background-color: #3498db;
+            color: white;
+        }
+
+        /* Copyright Section */
+        .copyright {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 14px;
+            color: #6c757d;
+        }
+        .copyright strong {
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Newsletter Section -->
+<div class="newsletter">
+    <h2>Join Our Newsletter</h2>
+    <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+    <div class="input-group">
+        <input type="email" class="form-control" placeholder="Enter your email">
+        <button class="btn">Subscribe</button>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<div class="footer container">
+    <div class="row">
+        <!-- Company Info -->
+        <div class="col-md-4">
+            <h5>ARSHA</h5>
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p><strong>Phone:</strong> +1 5589 55488 55</p>
+            <p><strong>Email:</strong> info@example.com</p>
+        </div>
+
+        <!-- Useful Links -->
+        <div class="col-md-2">
+            <h5>Useful Links</h5>
+            <a href="#">> Home</a>
+            <a href="#">> About us</a>
+            <a href="#">> Services</a>
+            <a href="#">> Terms of service</a>
+        </div>
+
+        <!-- Our Services -->
+        <div class="col-md-3">
+            <h5>Our Services</h5>
+            <a href="#">> Web Design</a>
+            <a href="#">> Web Development</a>
+            <a href="#">> Product Management</a>
+            <a href="#">> Marketing</a>
+        </div>
+
+        <!-- Social Media -->
+        <div class="col-md-3">
+            <h5>Follow Us</h5>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Copyright Section -->
+<div class="copyright">
+    &copy; Copyright <strong>Arsha</strong> All Rights Reserved
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
